@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #000;
+  background-image: url("../img/LAYOUT\ 1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #000;
+  box-shadow: #181f1f 1px 0px 20px 4px;
+}
+nav .logo {
+  display: flex;
+  align-items: center;
+}
+nav .logo img {
+  width: 80px;
+  padding: 0px 30px;
+}
+nav ul {
+  display: flex;
+  align-items: center;
+  list-style: none;
+}
+nav li {
+  padding: 36px 27px;
+}
+nav a {
+  text-decoration: none;
+  color: white;
+  transition: 1s;
+}
+nav a:hover {
+  background-color: #2a9da2;
+  transition: 1s;
+}
+nav .active {
+  background-color: #2a9da2;
+}
+
+main {
+  font-size: 22px;
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+main div {
+  padding: 55px 130px;
+  background-color: rgba(0, 0, 0, 0.479);
+  border: rgba(255, 255, 255, 0.644) solid 3px;
+}
+
+/*# sourceMappingURL=style.css.map */
